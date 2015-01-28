@@ -1,0 +1,89 @@
+{
+    "type": "Ext.toolbar.Toolbar",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "designer|userAlias": "mytoolbar",
+        "designer|userClassName": "MyToolbar",
+        "height": 45,
+        "width": "100%"
+    },
+    "name": "MyToolbar",
+    "designerId": "45f8498a-685d-483f-b034-4d8bd7dd8fd1",
+    "viewControllerInstanceId": "17614abb-027c-43c3-ae44-a42873a7a372",
+    "viewModelInstanceId": "9eec774a-2241-4da7-893a-705fa37719bc",
+    "cn": [
+        {
+            "type": "Ext.button.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|uiInterfaceName": "plain",
+                "iconCls": "icon-notify",
+                "itemId": "mybutton",
+                "layout|flex": null,
+                "text": null,
+                "width": 33
+            },
+            "name": "MyButton",
+            "designerId": "0cd6e70f-d8c0-41be-bf0c-9a3f0ad40271",
+            "cn": [
+                {
+                    "type": "basicfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|params": [
+                            "region"
+                        ],
+                        "fn": "activeFn",
+                        "implHandler": [
+                            "var anchorX = region.left + (region.right - region.left) / 2,",
+                            "    anchorY = region.bottom + 1;",
+                            "",
+                            "",
+                            "//if (!loginWin) {",
+                            "",
+                            "   var loginWin = Ext.create('Ext.Window', {",
+                            "        title: false,",
+                            "        frame: false,",
+                            "        frameHeader: false,",
+                            "        header: false,",
+                            "        autoShow: false,",
+                            "        resizable: false,",
+                            "        plain: true,",
+                            "        width: 200,",
+                            "        x: region.right - 200,",
+                            "        y: anchorY,",
+                            "        items: Ext.create('NewsFeed.view.MyPanel'),",
+                            "        listeners: {",
+                            "            afterrender: function (scope, eOpts) { loginWin.show(); }",
+                            "        }",
+                            "    });",
+                            "//}",
+                            "",
+                            "if (loginWin.isVisible() ){",
+                            "    loginWin.hide();",
+                            "} else {",
+                            "    loginWin.show();",
+                            "    loginWin.setPosition( region.right - loginWin.getWidth(), anchorY, false);",
+                            "}"
+                        ]
+                    },
+                    "name": "activeFn",
+                    "designerId": "8669351d-6c08-41fc-973f-ed07371e7f33"
+                }
+            ]
+        }
+    ]
+}

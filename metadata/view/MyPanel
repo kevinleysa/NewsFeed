@@ -1,0 +1,52 @@
+{
+    "type": "Ext.panel.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userAlias": "mypanel",
+        "designer|userClassName": "MyPanel",
+        "height": 250,
+        "title": "Notifications",
+        "width": 400
+    },
+    "name": "MyPanel",
+    "designerId": "677b5a0e-a916-4266-94d9-1b451aecca7c",
+    "viewControllerInstanceId": "43eb9f35-b795-48d0-b44a-be864cbc6e72",
+    "viewModelInstanceId": "8445860a-0ef8-48cf-9732-2e256a3ac4d9",
+    "cn": [
+        {
+            "type": "Ext.grid.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "header": false,
+                "title": "My Grid Panel"
+            },
+            "name": "MyGridPanel",
+            "designerId": "a11d8d0c-b463-4614-9747-355dbce8f382",
+            "cn": [
+                {
+                    "type": "Ext.grid.column.Column",
+                    "reference": {
+                        "name": "columns",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dataIndex": "string",
+                        "text": "String",
+                        "width": "100%"
+                    },
+                    "name": "MyColumn",
+                    "designerId": "717dff81-d799-4585-a668-4aa6a776d8bf"
+                }
+            ]
+        }
+    ]
+}
