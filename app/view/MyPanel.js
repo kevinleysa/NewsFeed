@@ -19,8 +19,8 @@ Ext.define('NewsFeed.view.MyPanel', {
 
     requires: [
         'NewsFeed.view.MyPanelViewModel',
-        'Ext.grid.Panel',
-        'Ext.grid.column.Column'
+        'Ext.view.View',
+        'Ext.XTemplate'
     ],
 
     viewModel: {
@@ -32,16 +32,11 @@ Ext.define('NewsFeed.view.MyPanel', {
 
     items: [
         {
-            xtype: 'gridpanel',
-            header: false,
-            title: 'My Grid Panel',
-            columns: [
-                {
-                    xtype: 'gridcolumn',
-                    width: '100%',
-                    dataIndex: 'string',
-                    text: 'String'
-                }
+            xtype: 'dataview',
+            height: '100%',
+            itemSelector: 'div',
+            itemTpl: [
+                'Data View Item {string}'
             ]
         }
     ]

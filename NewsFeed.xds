@@ -2,9 +2,9 @@
     "name": "NewsFeed",
     "settings": {
         "cmd": {
-            "license": "commercial",
-            "cmdVersion": "5.0.2.270",
-            "frameworkVersion": "5.0.1.1255"
+            "license": "",
+            "cmdVersion": "",
+            "frameworkVersion": ""
         },
         "canvasControls": {
             "viewportSize": {
@@ -14,7 +14,7 @@
                 "width": null
             }
         },
-        "urlPrefix": "http://localhost:1841",
+        "urlPrefix": "http://localhost/NewsFeed/",
         "exportPath": "C:/xampp/htdocs/NewsFeed",
         "spacesToIndent": 4,
         "sdkPath": "",
@@ -23,7 +23,9 @@
         "cacheBust": false,
         "buildShouldOverwriteIndex": true,
         "generateArchitectVersion": true,
-        "projectHasEnabledWebServer": true
+        "projectHasEnabledWebServer": true,
+        "lockUrlPrefix": true,
+        "installStatus": "Not Installed"
     },
     "xdsVersion": "3.1.0",
     "xdsBuild": 1934,

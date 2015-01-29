@@ -36,9 +36,9 @@ Ext.define('NewsFeed.view.MyToolbar', {
                     anchorY = region.bottom + 1;
 
 
-                //if (!loginWin) {
 
-                var loginWin = Ext.create('Ext.Window', {
+
+                var notifyWin = Ext.create('Ext.Window', {
                     title: false,
                     frame: false,
                     frameHeader: false,
@@ -51,16 +51,16 @@ Ext.define('NewsFeed.view.MyToolbar', {
                     y: anchorY,
                     items: Ext.create('NewsFeed.view.MyPanel'),
                     listeners: {
-                        afterrender: function (scope, eOpts) { loginWin.show(); }
+                        afterrender: function (scope, eOpts) { notifyWin.show(); }
                     }
                 });
-                //}
 
-                if (loginWin.isVisible() ){
-                    loginWin.hide();
+
+                if (notifyWin.isVisible() ){
+                    notifyWin.hide();
                 } else {
-                    loginWin.show();
-                    loginWin.setPosition( region.right - loginWin.getWidth(), anchorY, false);
+                    notifyWin.show();
+                    notifyWin.setPosition( region.right - notifyWin.getWidth(), anchorY, false);
                 }
             },
             itemId: 'mybutton',

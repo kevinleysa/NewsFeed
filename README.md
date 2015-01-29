@@ -1,2 +1,0 @@
-# NewsFeed
-News Feed

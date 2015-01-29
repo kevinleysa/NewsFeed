@@ -18,33 +18,34 @@
     "viewModelInstanceId": "8445860a-0ef8-48cf-9732-2e256a3ac4d9",
     "cn": [
         {
-            "type": "Ext.grid.Panel",
+            "type": "Ext.view.View",
             "reference": {
                 "name": "items",
                 "type": "array"
             },
             "codeClass": null,
             "userConfig": {
-                "header": false,
-                "title": "My Grid Panel"
+                "height": "100%",
+                "itemSelector": "div"
             },
-            "name": "MyGridPanel",
-            "designerId": "a11d8d0c-b463-4614-9747-355dbce8f382",
+            "name": "MyView",
+            "designerId": "7ea6af6d-1d6d-42e9-8e4f-d68eaf18d090",
             "cn": [
                 {
-                    "type": "Ext.grid.column.Column",
+                    "type": "Ext.XTemplate",
                     "reference": {
-                        "name": "columns",
-                        "type": "array"
+                        "name": "itemTpl",
+                        "type": "object"
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "dataIndex": "string",
-                        "text": "String",
-                        "width": "100%"
+                        "designer|displayName": "itemTpl",
+                        "implHandler": [
+                            "Data View Item {string}"
+                        ]
                     },
-                    "name": "MyColumn",
-                    "designerId": "717dff81-d799-4585-a668-4aa6a776d8bf"
+                    "name": "itemTpl",
+                    "designerId": "1c3af3f6-cd56-4f78-bd06-75c32fbb2c8e"
                 }
             ]
         }
