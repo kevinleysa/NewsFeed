@@ -6,16 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userAlias": "mypanel",
         "designer|userClassName": "MyPanel",
-        "height": 250,
-        "title": "Notifications",
+        "height": "100%",
+        "title": "Notification",
         "width": 400
     },
     "name": "MyPanel",
-    "designerId": "677b5a0e-a916-4266-94d9-1b451aecca7c",
-    "viewControllerInstanceId": "43eb9f35-b795-48d0-b44a-be864cbc6e72",
-    "viewModelInstanceId": "8445860a-0ef8-48cf-9732-2e256a3ac4d9",
+    "designerId": "a1e88dee-b99f-413f-8860-ba5e81d78695",
     "cn": [
         {
             "type": "Ext.view.View",
@@ -26,10 +23,11 @@
             "codeClass": null,
             "userConfig": {
                 "height": "100%",
-                "itemSelector": "div"
+                "itemSelector": "div",
+                "store": "notify"
             },
             "name": "MyView",
-            "designerId": "7ea6af6d-1d6d-42e9-8e4f-d68eaf18d090",
+            "designerId": "e123f5c3-6c38-4655-8df1-866cc340634b",
             "cn": [
                 {
                     "type": "Ext.XTemplate",
@@ -41,11 +39,17 @@
                     "userConfig": {
                         "designer|displayName": "itemTpl",
                         "implHandler": [
-                            "Data View Item {string}"
+                            "",
+                            "<img class=\"{icon-message}\" style=\"width:50px; height: 50px; float: left;margin-bottom: 10px;\"/>",
+                            "<p style=\\\"font-size:10pt\\\"><b> {user}</b>",
+                            "    &nbsp;&nbsp;&nbsp;&nbsp;{type}",
+                            "    &nbsp;&nbsp;&nbsp;&nbsp;<strong>{title}</strong></p>",
+                            "<p style=\\\"font-size:10pt\\\">{notify}</p>",
+                            "<hr>"
                         ]
                     },
                     "name": "itemTpl",
-                    "designerId": "1c3af3f6-cd56-4f78-bd06-75c32fbb2c8e"
+                    "designerId": "ee740ab2-e700-4553-a4ce-cbcceec2887d"
                 }
             ]
         }

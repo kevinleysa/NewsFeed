@@ -6,7 +6,13 @@
     },
     "codeClass": null,
     "userConfig": {
+        "models": [
+            "notify"
+        ],
         "name": "NewsFeed",
+        "stores": [
+            "notify"
+        ],
         "views": [
             "MyToolbar",
             "MyPanel"

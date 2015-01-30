@@ -1,0 +1,59 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "data": [
+            "[",
+            "    {",
+            "        \"image\": \"Hello World!\",",
+            "        \"type\": 'Message',",
+            "        \"title\": \"Coding of notify page updated\",",
+            "        \"datetime\": \"7/11/2013\",",
+            "        \"user\": \"Loreyza\",",
+            "        \"notify\": \"Hello Kei, I updated coding of notify page of Linspira site, do you see?\"",
+            "    },",
+            "    {",
+            "        \"image\": \"Hello World!\",",
+            "        \"type\": 'Idea',",
+            "        \"title\": \"USB Security\",",
+            "        \"datetime\": \"7/11/2013\",",
+            "        \"user\": \"Keiichi Suzuki\",",
+            "        \"notify\": \"Hello friend, I want to create a USB security, user can lock their USB by set password.\"",
+            "    }",
+            " ]"
+        ],
+        "designer|userClassName": "notify",
+        "model": "notify",
+        "storeId": "notify"
+    },
+    "name": "MyStore",
+    "designerId": "1f04db78-d29c-40a6-aab4-a00c266ffb37",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "name": "MyAjaxProxy",
+            "designerId": "6b904265-f5b6-44ec-a307-175d7548e4c1",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "name": "MyJsonReader",
+                    "designerId": "a7733b00-7d6a-4ec1-9f32-26b3a8ce6205"
+                }
+            ]
+        }
+    ]
+}

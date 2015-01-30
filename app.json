@@ -1,0 +1,9 @@
+{
+   "name": "NewsFeed",
+   "requires": [],
+   "id": "1449f0a0-8285-4ad8-a8ed-1d8807a39590",
+   "theme": "ext-theme-neptune-0778c993-7557-40da-a37c-d238d8f3aff4",
+   "resources": [
+      "resources/import.css"
+   ]
+}

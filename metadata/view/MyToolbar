@@ -7,15 +7,12 @@
     "codeClass": null,
     "userConfig": {
         "designer|initialView": true,
-        "designer|userAlias": "mytoolbar",
         "designer|userClassName": "MyToolbar",
-        "height": 45,
+        "height": 40,
         "width": "100%"
     },
     "name": "MyToolbar",
-    "designerId": "45f8498a-685d-483f-b034-4d8bd7dd8fd1",
-    "viewControllerInstanceId": "17614abb-027c-43c3-ae44-a42873a7a372",
-    "viewModelInstanceId": "9eec774a-2241-4da7-893a-705fa37719bc",
+    "designerId": "db031184-2670-4781-a88c-039512135c3b",
     "cn": [
         {
             "type": "Ext.button.Button",
@@ -25,15 +22,16 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|uiInterfaceName": "plain",
+                "destroyMenu": true,
+                "height": 32,
                 "iconCls": "icon-notify",
                 "itemId": "mybutton",
                 "layout|flex": null,
-                "text": null,
-                "width": 33
+                "text": "Notify",
+                "width": 68
             },
-            "name": "MyButton",
-            "designerId": "0cd6e70f-d8c0-41be-bf0c-9a3f0ad40271",
+            "name": "MyButton1",
+            "designerId": "6a7b1f0c-1b7b-497a-a718-f56512a2ee3a",
             "cn": [
                 {
                     "type": "basicfunction",
@@ -48,6 +46,9 @@
                         ],
                         "fn": "activeFn",
                         "implHandler": [
+                            "Ext.create('NewsFeed.view.MyPanel').show();",
+                            "",
+                            "/*",
                             "var anchorX = region.left + (region.right - region.left) / 2,",
                             "    anchorY = region.bottom + 1;",
                             "",
@@ -70,18 +71,11 @@
                             "        afterrender: function (scope, eOpts) { notifyWin.show(); }",
                             "    }",
                             "});",
-                            "",
-                            "",
-                            "if (notifyWin.isVisible() ){",
-                            "    notifyWin.hide();",
-                            "} else {",
-                            "    notifyWin.show();",
-                            "    notifyWin.setPosition( region.right - notifyWin.getWidth(), anchorY, false);",
-                            "}"
+                            "*/"
                         ]
                     },
                     "name": "activeFn",
-                    "designerId": "8669351d-6c08-41fc-973f-ed07371e7f33"
+                    "designerId": "b6f035c1-b5e3-49af-a49b-e8cb5b6d7649"
                 }
             ]
         }

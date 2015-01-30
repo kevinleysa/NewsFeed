@@ -6,9 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
+        "basePath": "ext/",
         "designer|userClassName": "Library",
-        "theme": "MyCrispTheme"
+        "theme": "MyNeptuneTheme"
     },
     "name": "Library",
-    "designerId": "ffd3c4f1-00a3-45bd-9b96-180bc4266e33"
+    "designerId": "414802c4-a08a-416c-a5ff-0b9e417759e5"
 }

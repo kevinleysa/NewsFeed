@@ -2,9 +2,9 @@
     "name": "NewsFeed",
     "settings": {
         "cmd": {
-            "license": "",
-            "cmdVersion": "",
-            "frameworkVersion": ""
+            "license": "commercial",
+            "cmdVersion": "5.0.2.270",
+            "frameworkVersion": "4.2.1.883"
         },
         "canvasControls": {
             "viewportSize": {
@@ -14,7 +14,7 @@
                 "width": null
             }
         },
-        "urlPrefix": "http://localhost/NewsFeed/",
+        "urlPrefix": "http://localhost:1841",
         "exportPath": "C:/xampp/htdocs/NewsFeed",
         "spacesToIndent": 4,
         "sdkPath": "",
@@ -25,29 +25,30 @@
         "generateArchitectVersion": true,
         "projectHasEnabledWebServer": true,
         "lockUrlPrefix": true,
-        "installStatus": "Not Installed"
+        "installStatus": "Not Installed",
+        "displayfield-ExtBox1-1177-inputEl": "a new version of the framework is available"
     },
     "xdsVersion": "3.1.0",
     "xdsBuild": 1934,
     "schemaVersion": 1,
     "upgradeVersion": 300000000007,
-    "framework": "ext50",
+    "framework": "ext42",
     "viewOrderMap": {
         "view": [
-            "9eec774a-2241-4da7-893a-705fa37719bc",
-            "17614abb-027c-43c3-ae44-a42873a7a372",
-            "677b5a0e-a916-4266-94d9-1b451aecca7c",
-            "8445860a-0ef8-48cf-9732-2e256a3ac4d9",
-            "43eb9f35-b795-48d0-b44a-be864cbc6e72",
-            "45f8498a-685d-483f-b034-4d8bd7dd8fd1"
+            "db031184-2670-4781-a88c-039512135c3b",
+            "a1e88dee-b99f-413f-8860-ba5e81d78695"
         ],
-        "store": [],
+        "store": [
+            "1f04db78-d29c-40a6-aab4-a00c266ffb37"
+        ],
         "controller": [],
-        "model": [],
+        "model": [
+            "19202646-065e-4d48-8616-d3e6b74a208a"
+        ],
         "resource": [
-            "ffd3c4f1-00a3-45bd-9b96-180bc4266e33",
-            "b7897b08-7cc4-4660-ab03-4c72962ffc61",
-            "75dda47d-2170-4593-b35b-c5b9ead57655"
+            "414802c4-a08a-416c-a5ff-0b9e417759e5",
+            "0778c993-7557-40da-a37c-d238d8f3aff4",
+            "1002b134-1b5b-4289-81e7-ca20e7de15e6"
         ],
         "app": [
             "application"
