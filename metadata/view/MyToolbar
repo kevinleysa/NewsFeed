@@ -23,12 +23,12 @@
             "codeClass": null,
             "userConfig": {
                 "destroyMenu": true,
-                "height": 32,
+                "height": 31,
                 "iconCls": "icon-notify",
                 "itemId": "mybutton",
                 "layout|flex": null,
-                "text": "Notify",
-                "width": 68
+                "text": " ",
+                "width": 30
             },
             "name": "MyButton1",
             "designerId": "6a7b1f0c-1b7b-497a-a718-f56512a2ee3a",

@@ -19,7 +19,6 @@
             "cn": [
                 {
                     "id": "e123f5c3-6c38-4655-8df1-866cc340634b",
-                    "expanded": false,
                     "cn": [
                         {
                             "id": "ee740ab2-e700-4553-a4ce-cbcceec2887d"
@@ -34,7 +33,6 @@
             "cn": [
                 {
                     "id": "6b904265-f5b6-44ec-a307-175d7548e4c1",
-                    "expanded": false,
                     "cn": [
                         {
                             "id": "a7733b00-7d6a-4ec1-9f32-26b3a8ce6205"
@@ -92,7 +90,7 @@
         ]
     },
     "canvasState": {
-        "topInstance": "a1e88dee-b99f-413f-8860-ba5e81d78695"
+        "topInstance": "db031184-2670-4781-a88c-039512135c3b"
     },
     "inspectorState": {
         "topInstance": null,

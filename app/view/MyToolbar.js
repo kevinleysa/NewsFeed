@@ -58,12 +58,12 @@ Ext.define('NewsFeed.view.MyToolbar', {
                         });
                         */
                     },
-                    height: 32,
+                    height: 31,
                     itemId: 'mybutton',
-                    width: 68,
+                    width: 30,
                     destroyMenu: true,
                     iconCls: 'icon-notify',
-                    text: 'Notify'
+                    text: ' '
                 }
             ]
         });
