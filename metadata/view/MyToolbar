@@ -6,7 +6,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": true,
         "designer|userClassName": "MyToolbar",
         "height": 40,
         "width": "100%"

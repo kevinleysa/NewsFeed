@@ -6,8 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|initialView": true,
         "designer|userClassName": "MyPanel",
-        "height": "100%",
+        "height": null,
+        "maxHeight": null,
         "title": "Notification",
         "width": 400
     },
@@ -22,7 +24,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "height": "100%",
+                "height": null,
                 "itemSelector": "div",
                 "store": "notify"
             },
@@ -44,7 +46,7 @@
                             "<p style=\\\"font-size:10pt\\\"><b> {user}</b>",
                             "    &nbsp;&nbsp;&nbsp;&nbsp;{type}",
                             "    &nbsp;&nbsp;&nbsp;&nbsp;<strong>{title}</strong></p>",
-                            "<p style=\\\"font-size:10pt\\\">{notify}</p>",
+                            "<p style=\\\"font-size:10pt\\\">{notify:ellipsis(100,true)}</p>",
                             "<hr>"
                         ]
                     },

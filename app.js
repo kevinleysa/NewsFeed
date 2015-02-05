@@ -33,7 +33,7 @@ Ext.application({
     name: 'NewsFeed',
 
     launch: function() {
-        Ext.create('NewsFeed.view.MyToolbar', {renderTo: Ext.getBody()});
+        Ext.create('NewsFeed.view.MyPanel', {renderTo: Ext.getBody()});
     }
 
 });

@@ -21,7 +21,6 @@ Ext.define('NewsFeed.view.MyPanel', {
         'Ext.XTemplate'
     ],
 
-    height: '100%',
     width: 400,
     title: 'Notification',
 
@@ -32,7 +31,6 @@ Ext.define('NewsFeed.view.MyPanel', {
             items: [
                 {
                     xtype: 'dataview',
-                    height: '100%',
                     itemSelector: 'div',
                     itemTpl: [
                         '',
@@ -40,7 +38,7 @@ Ext.define('NewsFeed.view.MyPanel', {
                         '<p style=\"font-size:10pt\"><b> {user}</b>',
                         '    &nbsp;&nbsp;&nbsp;&nbsp;{type}',
                         '    &nbsp;&nbsp;&nbsp;&nbsp;<strong>{title}</strong></p>',
-                        '<p style=\"font-size:10pt\">{notify}</p>',
+                        '<p style=\"font-size:10pt\">{notify:ellipsis(100,true)}</p>',
                         '<hr>'
                     ],
                     store: 'notify'

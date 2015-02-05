@@ -26,7 +26,8 @@
         "projectHasEnabledWebServer": true,
         "lockUrlPrefix": true,
         "installStatus": "Not Installed",
-        "displayfield-ExtBox1-1177-inputEl": "a new version of the framework is available"
+        "displayfield-ExtBox1-1177-inputEl": "a new version of the framework is available",
+        "displayfield-ExtBox1-1118-inputEl": "a new version of the framework is available"
     },
     "xdsVersion": "3.1.0",
     "xdsBuild": 1943,
