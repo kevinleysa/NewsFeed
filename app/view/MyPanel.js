@@ -33,12 +33,11 @@ Ext.define('NewsFeed.view.MyPanel', {
                     xtype: 'dataview',
                     itemSelector: 'div',
                     itemTpl: [
-                        '',
                         '<img class="{icon-message}" style="width:50px; height: 50px; float: left;margin-bottom: 10px;"/>',
-                        '<p style=\"font-size:10pt\"><b> {user}</b>',
+                        '<!--<p style=\"font-size:10pt\">--><b> {user}</b>',
                         '    &nbsp;&nbsp;&nbsp;&nbsp;{type}',
-                        '    &nbsp;&nbsp;&nbsp;&nbsp;<strong>{title}</strong></p>',
-                        '<p style=\"font-size:10pt\">{notify:ellipsis(100,true)}</p>',
+                        '    &nbsp;&nbsp;&nbsp;&nbsp;<strong>{title}</strong><br>',
+                        '<!--<p style=\"font-size:10pt\">-->{notify:ellipsis(100,true)}',
                         '<hr>'
                     ],
                     store: 'notify'

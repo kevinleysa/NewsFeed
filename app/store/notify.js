@@ -44,6 +44,14 @@ Ext.define('NewsFeed.store.notify', {
                     datetime: '7/11/2013',
                     user: 'Keiichi Suzuki',
                     notify: 'Hello friend, I want to create a USB security, user can lock their USB by set password.'
+                },
+                {
+                    image: 'Hello World!',
+                    type: 'Message',
+                    title: 'Coding of notify page updated',
+                    datetime: '7/11/2013',
+                    user: 'Loreyza',
+                    notify: 'Hello Kei, I updated coding of notify page of Linspira site, do you see?'
                 }
             ],
             proxy: {
