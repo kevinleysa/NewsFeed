@@ -42,7 +42,9 @@
         "store": [
             "1f04db78-d29c-40a6-aab4-a00c266ffb37"
         ],
-        "controller": [],
+        "controller": [
+            "4656ea90-254e-4409-a28b-8f6ca1ae752d"
+        ],
         "model": [
             "19202646-065e-4d48-8616-d3e6b74a208a"
         ],

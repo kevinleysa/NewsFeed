@@ -70,6 +70,9 @@
             ]
         },
         "controller": true,
+        "4656ea90-254e-4409-a28b-8f6ca1ae752d": {
+            "id": "4656ea90-254e-4409-a28b-8f6ca1ae752d"
+        },
         "resource": true,
         "414802c4-a08a-416c-a5ff-0b9e417759e5": {
             "id": "414802c4-a08a-416c-a5ff-0b9e417759e5"
@@ -87,17 +90,18 @@
             "1002b134-1b5b-4289-81e7-ca20e7de15e6",
             "a1e88dee-b99f-413f-8860-ba5e81d78695",
             "19202646-065e-4d48-8616-d3e6b74a208a",
-            "1f04db78-d29c-40a6-aab4-a00c266ffb37"
+            "1f04db78-d29c-40a6-aab4-a00c266ffb37",
+            "4656ea90-254e-4409-a28b-8f6ca1ae752d"
         ]
     },
     "canvasState": {
-        "topInstance": "a1e88dee-b99f-413f-8860-ba5e81d78695"
+        "topInstance": null
     },
     "inspectorState": {
-        "topInstance": "a1e88dee-b99f-413f-8860-ba5e81d78695",
-        "selectedInstance": "a1e88dee-b99f-413f-8860-ba5e81d78695"
+        "topInstance": "4656ea90-254e-4409-a28b-8f6ca1ae752d",
+        "selectedInstance": "4656ea90-254e-4409-a28b-8f6ca1ae752d"
     },
-    "editMode": "design",
+    "editMode": "code",
     "userSettings": {
         "no-cmd": false
     }

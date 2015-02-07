@@ -31,7 +31,25 @@ Ext.define('NewsFeed.view.MyToolbar', {
                 {
                     xtype: 'button',
                     activeFn: function(region) {
-                        Ext.create('NewsFeed.view.MyPanel').show();
+                        Ext.create('Ext.Panel', {
+                            centered : true,
+                            html     : 'Hello'
+                        }).show();
+
+                        /*/Ext.create('NewsFeed.view.MyPanel').show();
+
+                        mypanel=Ext.create('Ext.Panel', {
+                            html: 'Floating Panel',
+                            hideOnMaskTap:true,
+                            modal:true,
+                            floating:true,
+                            centered:true,
+                            padding: 10
+                        });
+
+                        Ext.Viewport.add(mypanel);
+
+                        mypanel.show();
 
                         /*
                         var anchorX = region.left + (region.right - region.left) / 2,
